@@ -6,7 +6,7 @@ namespace HutongGames.PlayMaker.Actions
 {   // Gokhan Ergin ERYILDIR (ergin3d)
 	[ActionCategory("Pooler")]
 	[Tooltip("Disables the pooled pbject so that it can be spawned again when neccesary. ")]
-	public class PoolerDestorySelf : FsmStateAction
+	public class PoolerDestroySelf : FsmStateAction
 	{
 		public override void OnEnter()
 		{
