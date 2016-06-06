@@ -6,7 +6,7 @@ namespace HutongGames.PlayMaker.Actions
 {   // Gokhan Ergin ERYILDIR (ergin3d)
 	[ActionCategory("Pooler")]
 	[Tooltip("Disables the stored pooled object for later use.")]
-	public class PoolerDestoryStored : FsmStateAction
+	public class PoolerDestroyStored : FsmStateAction
 	{
 		[RequiredField]
 		[Tooltip("The GameObject to destroy.")]
