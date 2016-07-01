@@ -42,6 +42,12 @@ namespace HutongGames.PlayMaker.Actions
 
 		public static Dictionary<string, Pooler> ObjectPool;
 		List<GameObject> PoolList;
+		
+		public override void Awake()
+		{
+			ObjectPool = new Dictionary<string, Pooler> ();
+			PoolList = new List<GameObject> ();
+		}
 
 		public override void Reset()
 		{
